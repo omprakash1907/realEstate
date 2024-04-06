@@ -1,0 +1,71 @@
+.bg-theme{
+  background-color: #002550;
+}
+
+.text-theme{
+  color: #002550;
+}
+
+.grey-theme{
+    background-color:   #F2F4F6;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+ul>li{
+  list-style: none !important;
+ }
+
+ .nav-link{
+  color: #002550 !important;
+ }
+
+ .headline{
+  border-bottom: 4px solid #002550;
+ }
+
+/* ---------------Hero Section Start---------------------- */
+.hero{
+  background-image: url('./assets/images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-content{
+  padding: 6rem 4rem;
+}
+/* ---------------Hero Section End---------------------- */
+/* ---------------About Section Start---------------------- */
+.about{
+  background-color:  #E6EAEE;
+}
+/* ---------------About Section End---------------------- */
+
+.coolinput {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  position: static;
+}
+
+.coolinput label.text {
+  font-size: 0.75rem;
+  position: relative;
+  top: 0.5rem;
+  margin: 0 0 0 7px;
+  padding: 0 3px;
+  width: fit-content;
+}
+
+.coolinput input[type=text].input {
+  padding: 11px 10px;
+  font-size: 0.75rem;
+  border: 2px #949497 solid;
+  border-radius: 5px;
+}
+
+.coolinput input[type=text].input:focus {
+  outline: none;
+}
